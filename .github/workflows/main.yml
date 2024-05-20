@@ -107,5 +107,5 @@ jobs:
           fi
 
           curl -s -X POST https://api.telegram.org/bot6651189113:AAF5AUVMgvHzwmwXfQEBx1UNZPYGGVKnegk/sendMessage \
-          -d chat_id=1002010408571 \
+          -d chat_id=4200603947 \
           -d text="CI/CD Pipeline status: $STATUS"
